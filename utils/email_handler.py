@@ -5,12 +5,7 @@ Almost perfect email regex: https://emailregex.com
 '''
 import re
 
-
-class EmailHandler:
-    '''Matches email addresses in the text'''
-
-    def __init__(self):
-        pattern = r'(?:[a-z0-9!#$%&\'*+/=?^_`{|}~-]+' \
+email_regex = r'(?:[a-z0-9!#$%&\'*+/=?^_`{|}~-]+' \
               r'(?:\.[a-z0-9!#$%&\'*+/=?^_`{|}~-]+)*|' \
               r'"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|' \
               r'\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")' \
@@ -21,7 +16,12 @@ class EmailHandler:
               r'[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:' \
               r'(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|' \
               r'\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])'
-        self.pattern = re.compile(pattern)
+
+class EmailHandler:
+    '''Matches email addresses in the text'''
+
+    def __init__(self):
+        self.pattern = re.compile(email_regex)
 
     def get_tok_indexlist(self, token_list):
         '''
