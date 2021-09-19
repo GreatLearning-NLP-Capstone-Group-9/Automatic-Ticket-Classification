@@ -3,4 +3,11 @@ UTAustin-IITB-PGAIML Capstone project for the Post Graduate Program in Artificia
 
 ## Setup
 ### To install required packages: 
-Run `#> pip install -r requirements.txt` in your virtual environment or conda environment
+Run `pip install -r requirements.txt` in your virtual environment or conda environment to install all the required dependencies
+
+## Notebooks
+
+### Interim Notebook
+[Automatic Ticket Classification Milestone-I](https://github.com/GreatLearning-NLP-Capstone-Group-9/Automatic-Ticket-Classification/blob/main/Capstone%20Automatic%20Ticket%20Classification%20Milestone-1.ipynb)<br>
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1kge4Lga5mkLS1vh46J8Weo__dVo0lr83?usp=sharing)
+
