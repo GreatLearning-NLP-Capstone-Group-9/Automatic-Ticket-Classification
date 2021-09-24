@@ -1,0 +1,33 @@
+{
+
+	# to set the random seed for reproducibility
+	seed: 7
+
+	# parameter to set the most frequent number of words
+	top_n: 50
+
+	# set color codes for visualization plots
+	red_rgb: "#FF4500"
+	green_rgb: "#50C878"
+
+	# flags to run various pre-processing techniques, can be configured dynamically here
+	fix_encoding: true
+	clean_security_logs: true
+	clean_emails: true
+	strip_irrelevant: true
+	strip_anchors: true
+	strip_callers: true
+	clean_html_tags: true
+	replace_accented: true
+	clean_contractions: true
+	remove_special: true
+	strip_stopwords: true
+	clean_whitespace: true
+	tokenize_text: true
+	remove_gibberish: true
+	remove_oov: false
+	lower: true
+	get_lemmas: true
+	strip_numbers: true
+
+}
