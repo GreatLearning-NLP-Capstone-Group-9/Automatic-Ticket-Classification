@@ -18,7 +18,7 @@ seaborn==0.11.1
 lightgbm==3.2.1
 hjson==3.0.2
 spacy==3.1.1
-numpy==1.21.1
+numpy==1.22.0
 jenkspy==0.2.0
 pandas==1.2.4
 yake==0.4.8
