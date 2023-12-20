@@ -7,7 +7,7 @@ tqdm==4.59.0
 imbalanced_learn==0.8.1
 mail_parser==3.15.0
 matplotlib==3.3.4
-transformers==4.30.0
+transformers==4.36.0
 Keras==2.3.1
 scipy==1.10.0
 langdetect==1.0.9
