@@ -25,6 +25,6 @@ yake==0.4.8
 nltk==3.6.6
 beautifulsoup4==4.10.0
 imblearn==0.0
-scikit_learn==1.0
+scikit_learn==1.0.1
 utils==1.0.1
 xgboost==1.4.2
